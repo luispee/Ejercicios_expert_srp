@@ -9,6 +9,8 @@ namespace Program
         {
             string appointmentResult = AppointmentService.CreateAppointment("Steven Jhonson", "986782342", "5555-555-555", DateTime.Now, "Wall Street", "Armand");
             Console.WriteLine(appointmentResult);
+            //Person StevenJhonson = new Person("Steven Jhonson", "986782342", "5555-555-555");
+            //string newAppointments = AppointmentService.CreateAppointment(StevenJhonson, Doctor Armand, DateTime.Now, "Wall Street")
 
             string appointmentResult2 = AppointmentService.CreateAppointment("Ralf Manson", "", "5555-555-555", DateTime.Now, "Queen Street", "");
             Console.WriteLine(appointmentResult2);
